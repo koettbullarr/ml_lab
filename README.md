@@ -8,6 +8,11 @@ Implementation of Machine Learning Algorithms from scratch for the purpose of pr
 - **K-Nearest-Neighbors**
 - **coming soon :)**
 
+## Folders
+
+- **ml_models\**: Folder where the ml_lab.py is stored.
+- **model_tests\**: Folder where the tests for the models are made.
+
 ## Installation
 
 Clone the repository using:
