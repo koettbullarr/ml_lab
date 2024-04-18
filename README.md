@@ -1,2 +1,40 @@
 # ml_lab
-Implementation of Machine Learning Algorithms from scratch
+
+Implementation of Machine Learning Algorithms from scratch for the purpose of practicing and learning.
+
+## Machine Learning Algorithms included:
+
+- **Linear Regression**
+- **K-Nearest-Neighbors**
+- **coming soon :)**
+
+## Installation
+
+Clone the repository using:
+
+```bash
+git clone https://github.com/koettbullarr/ml_lab.git
+```
+
+## Usage
+
+Import and use the models in your Python projects:
+
+```python
+from ml_lab import LinearRegression
+import evaluator
+
+# Example usage of the Linear Regression model
+model = LinearRegression(lr = 0.01, n_iters = 1000)
+model.train(X_train, y_train)
+predictions = model.predict(X_test)
+
+# Evaluate 
+print(evaluator.evaluate_regression(y_test, predictions))
+
+```
+
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
