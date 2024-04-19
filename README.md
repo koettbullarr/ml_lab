@@ -5,13 +5,15 @@ Implementation of Machine Learning Algorithms from scratch for the purpose of pr
 ## Machine Learning Algorithms included:
 
 - **Linear Regression**
+- **Logistic Regression**
 - **K-Nearest-Neighbors**
+- **Naive Bayes**
 - **coming soon :)**
 
 ## Folders
 
-- **ml_models\**: Folder where the ml_lab.py is stored.
-- **model_tests\**: Folder where the tests for the models are made.
+- **ml_models**: Folder where the ml_lab.py is stored.
+- **model_tests**: Folder where the tests for the models are made.
 
 ## Installation
 
